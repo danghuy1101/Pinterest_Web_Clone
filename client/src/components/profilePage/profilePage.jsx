@@ -1,8 +1,8 @@
 import "./profilePage.css";
 import Image from "../components/Image/Image";
 import { useState } from "react";
-import Gallery from "../components/Gallery/Gallery";
-import Collections from "../components/Collections/Collections";
+import Gallery from "../Gallery/Gallery";
+import Collections from "../collections/collections";
 const ProfilePage = () => {
   const [type, setType] = useState("saved");
   return (
