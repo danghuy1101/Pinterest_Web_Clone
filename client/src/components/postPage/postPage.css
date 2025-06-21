@@ -52,6 +52,6 @@
 @media (max-width: 751px) {
   .postContainer {
     flex-direction: column;
-    /* max-height: unset; */
+    max-height: unset;
   }
 }
