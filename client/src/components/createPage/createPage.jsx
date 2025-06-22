@@ -49,7 +49,7 @@ function createPage() {
           <div className="createFormItem">
             <label htmlFor="tags">Tagged topics</label>
             <input type="text" placeholder="Add tags" name="tags" id="tags" />
-            <small>Don&apost worry, people won&apost see your tags</small>
+            <small>Don&apos;t worry, people won&apos;t see your tags</small>
           </div>
         </form>
       </div>
