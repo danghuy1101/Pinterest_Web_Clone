@@ -53,6 +53,16 @@
   background-color: transparent;
   font-size: 16px;
 }
+.emoji {
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+}
+.emojiPicker {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
 
 .emoji {
   cursor: pointer;
