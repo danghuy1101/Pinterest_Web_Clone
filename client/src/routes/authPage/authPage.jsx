@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Image from "../../components/image/image";
 function AuthPage() {
   const [isRegister, setIsRegister] = useState(false);
   const [error, setError] = useState("");
