@@ -1,6 +1,6 @@
 import "/comments.csss";
 import Image from "../image/image.jsx";
-import EmojiPicker from "../emojiPicker/emojiPicker.jsx";
+import EmojiPicker from "emoji-picker-react";
 import { useState } from "react";
 
 const Comments = () => {
