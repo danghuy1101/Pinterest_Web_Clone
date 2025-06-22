@@ -1,5 +1,5 @@
-import GalleryItem from "../galleryItem/galleryItem"
-import './gallery.css'
+import GalleryItem from "../galleryItem/galleryItem";
+import "./gallery.css";
 // TEMP
 const items = [
     {

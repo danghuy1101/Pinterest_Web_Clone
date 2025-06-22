@@ -10,7 +10,7 @@ import SearchPage from './routes/searchPage/searchPage'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import MainLayout from './routes/layouts/mainLayout'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
