@@ -1,6 +1,7 @@
 import React from "react";
-
-function authPage() {
+import { useState } from "react";
+import Image from "../../components/image/image";
+function AuthPage() {
   const [isRegister, setIsRegister] = useState(false);
   const [error, setError] = useState("");
   return (
@@ -70,7 +71,7 @@ function authPage() {
             </div>
             <button type="submit">Login</button>
             <p onClick={() => setIsRegister(true)}>
-              Don't have an account<b>Register</b>
+              Don&apos;t have an account<b>Register</b>
             </p>
             {error && <p className="error">{error}</p>}
           </form>
@@ -80,4 +81,4 @@ function authPage() {
   );
 }
 
-export default authPage;
+export default AuthPage;
